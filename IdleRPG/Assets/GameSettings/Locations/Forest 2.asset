@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91068545023e39349b4b5b5bf250aff4, type: 3}
+  m_Name: Forest 2
+  m_EditorClassIdentifier: 
+  _background: {fileID: 21300000, guid: 40d26095d70ca4248b5075be27309bb7, type: 3}
+  _enemies:
+  - _enemyPrefab: {fileID: 8461360926328941709, guid: 34c1f6d25ab450e4eaeeb550719d9812, type: 3}
+    ProbabilityOccurrence: 90
+  - _enemyPrefab: {fileID: 5884171630873240993, guid: f1de9f14dd894754daf625cda1052637, type: 3}
+    ProbabilityOccurrence: 10

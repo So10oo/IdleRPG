@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91068545023e39349b4b5b5bf250aff4, type: 3}
+  m_Name: Volocano 1
+  m_EditorClassIdentifier: 
+  _background: {fileID: 21300000, guid: d6d01b198394c604baec8021da9a2e6a, type: 3}
+  _enemies:
+  - _enemyPrefab: {fileID: 8461360926328941709, guid: 34c1f6d25ab450e4eaeeb550719d9812, type: 3}
+    ProbabilityOccurrence: 25
+  - _enemyPrefab: {fileID: 7001292150543180792, guid: 5df04a70cc532e843bdfdf5e7ef65bc0, type: 3}
+    ProbabilityOccurrence: 25
+  - _enemyPrefab: {fileID: 5062739590626039054, guid: 3458ec911c547c1458f8725412681212, type: 3}
+    ProbabilityOccurrence: 25
+  - _enemyPrefab: {fileID: 6320165619404414523, guid: 8510d451c66b892469fd4f12d5dc42d2, type: 3}
+    ProbabilityOccurrence: 25
